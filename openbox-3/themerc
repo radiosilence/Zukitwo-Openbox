@@ -40,8 +40,6 @@ window.*.border.color: #474747
 window.*.title.bg: flat gradient vertical
 window.*.title.bg.color: #E8E8E8
 window.*.title.bg.colorTo: #DCDCDC
-
-
 window.*.title.separator.color:  #DCDCDC
 
 window.*.label.bg: parentrelative
@@ -71,11 +69,12 @@ window.handle.width: 0
 !! Inactive Windows
 
 window.inactive.label.text.color: #9c9999
-window.inactive.border.color: #DCDCDC
+window.*.title.separator.color:  #DCDCDC
+window.inactive.border.color: #474747
 
 !! Fonts
-window.active.label.text.font: shadow=y:shadowoffset=1:shadowtint=-75
-window.inactive.label.text.font: shadow=y:shadowoffset=1:shadowtint=-100
+window.active.label.text.font: shadow=y:shadowoffset=1:shadowtint=-45
+window.inactive.label.text.font: shadow=y:shadowoffset=1:shadowtint=-80
 !!menu.items.font: 
 !!menu.title.text.font: shadow=y:shadowoffset=1:shadowtint=75
 
