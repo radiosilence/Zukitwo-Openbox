@@ -1,41 +1,42 @@
 !! Zukitwo by antihero
 
 !! Global Width
-window.handle.width: 2
-
-window.client.padding.width: 0
-window.client.padding.height: 0
-border.Width: 1
 padding.width: 2
 
-window.*.border.color: #000000
-window.inactive.border.color: #000000
-menu.border.color: #000000
+menu.border.width: 0
+menu.border.color: #474747
 menu.overlap: 0
-window.frameColor: #eeeeee
-window.*.client.color: #eeeeee
+window.frameColor: #FF0000
+window.*.client.color: #DCDCDC
 *.text.justify: left
 
 !! Menu
-menu.title.bg: flat gradient split
-menu.title.bg.color: #5c4e45
-menu.title.bg.colorTo: #51443e
-menu.title.text.color: #ffffff
+menu.title.bg: flat gradient vertical
+menu.title.bg.color: #E8E8E8
+menu.title.bg.colorTo: #DCDCDC
+menu.title.text.color: #000000
+menu.title.text.justify: Center
+menu.separator.color:  #BCBCBC
+menu.separator.width: 1
 
 menu.items.bg: flat solid
-menu.items.bg.color: #f9f2ee
+menu.items.bg.color: #DCDCDC
 
-menu.items.text.color: #000000
+menu.items.text.color: #2c2c3a
 menu.items.disabled.text.color: #737573
 
-menu.items.active.bg: flat gradient split
-menu.items.active.bg.color:  #5c4e45
-menu.items.active.bg.colorTo:#51443e
-menu.items.active.text.color: #f9f2ee
+menu.items.active.bg: flat gradient vertical
+menu.items.active.bg.color:  #a3b8c9
+menu.items.active.bg.colorTo:#8ca5b9
+menu.items.active.text.color: #FFFFFF
 
 !! Active Windows
+window.client.padding.width: 0
+window.client.padding.height: 0
+
 window.*: flat border
 window.*.border.color: #474747
+window.*.border.width: 1
 
 window.*.title.bg: flat gradient vertical
 window.*.title.bg.color: #E8E8E8
