@@ -74,8 +74,8 @@ window.inactive.label.text.color: #9c9999
 window.inactive.border.color: #DCDCDC
 
 !! Fonts
-window.active.label.text.font: shadow=y:shadowoffset=1:shadowtint=-25
-window.inactive.label.text.font: shadow=y:shadowoffset=1:shadowtint=-90
+window.active.label.text.font: shadow=y:shadowoffset=1:shadowtint=-75
+window.inactive.label.text.font: shadow=y:shadowoffset=1:shadowtint=-100
 !!menu.items.font: 
 !!menu.title.text.font: shadow=y:shadowoffset=1:shadowtint=75
 
