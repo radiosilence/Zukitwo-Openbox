@@ -1,0 +1,87 @@
+!! Zukitwo by antihero
+
+!! Global Width
+window.handle.width: 2
+
+window.client.padding.width: 0
+window.client.padding.height: 0
+border.Width: 1
+padding.width: 2
+
+window.*.border.color: #000000
+window.inactive.border.color: #000000
+menu.border.color: #000000
+menu.overlap: 0
+window.frameColor: #eeeeee
+window.*.client.color: #eeeeee
+*.text.justify: left
+
+!! Menu
+menu.title.bg: flat gradient split
+menu.title.bg.color: #5c4e45
+menu.title.bg.colorTo: #51443e
+menu.title.text.color: #ffffff
+
+menu.items.bg: flat solid
+menu.items.bg.color: #f9f2ee
+
+menu.items.text.color: #000000
+menu.items.disabled.text.color: #737573
+
+menu.items.active.bg: flat gradient split
+menu.items.active.bg.color:  #5c4e45
+menu.items.active.bg.colorTo:#51443e
+menu.items.active.text.color: #f9f2ee
+
+!! Active Windows
+window.*: flat border
+window.*.border.color: #474747
+
+window.*.title.bg: flat gradient vertical
+window.*.title.bg.color: #EFEFEF
+window.*.title.bg.colorTo: #DCDCDC
+
+
+window.*.title.separator.color:  #DCDCDC
+
+window.*.label.bg: parentrelative
+window.active.label.text.color: #2c2c3a
+
+window.*.button.*.bg: Flat Border Gradient Vertical
+window.*.button.*.image.color: #F7F7F7
+window.*.button.*.bg.color: #FEFEFE
+window.*.button.*.bg.colorTo: #EDEDED
+window.*.button.*.bg.border.color: #BCBCBC
+
+window.*.button.hover.bg.color: #F7F7F7
+window.*.button.hover.image.color: #D4C285
+window.*.button.hover.bg.border.color: #D4C285
+
+window.*.button.pressed.bg.color: #F7F7F7
+window.*.button.pressed.bg.colorTo: #000000
+window.*.button.pressed.image.color: #b6b6b6
+window.*.button.pressed.bg.border.color: #b1a19e
+
+window.*.button.disabled.bg: parentrelative
+window.*.button.disabled.image.color: #725e51
+
+window.*.handle.bg:  flat solid
+window.*.handle.bg.color:#DCDCDC
+
+window.*.grip.bg:  flat solid 
+window.*.grip.bg.color: #b0b0b0
+
+window.handle.width: 0
+
+!! Inactive Windows
+
+window.inactive.label.text.color: #9c9999
+window.inactive.border.color: #DCDCDC
+
+!! Fonts
+window.active.label.text.font: shadow=y:shadowoffset=1:shadowtint=-25
+window.inactive.label.text.font: shadow=y:shadowoffset=1:shadowtint=-90
+!!menu.items.font: 
+!!menu.title.text.font: shadow=y:shadowoffset=1:shadowtint=75
+
+window.label.text.justify: center
