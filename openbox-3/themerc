@@ -38,7 +38,7 @@ window.*: flat border
 window.*.border.color: #474747
 
 window.*.title.bg: flat gradient vertical
-window.*.title.bg.color: #EFEFEF
+window.*.title.bg.color: #E8E8E8
 window.*.title.bg.colorTo: #DCDCDC
 
 
