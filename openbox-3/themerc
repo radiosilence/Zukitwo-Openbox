@@ -53,14 +53,9 @@ window.*.button.*.bg.color: #FEFEFE
 window.*.button.*.bg.colorTo: #EDEDED
 window.*.button.*.bg.border.color: #BCBCBC
 
-window.*.button.hover.bg.color: #F7F7F7
-window.*.button.hover.image.color: #D4C285
 window.*.button.hover.bg.border.color: #D4C285
 
-window.*.button.pressed.bg.color: #F7F7F7
-window.*.button.pressed.bg.colorTo: #000000
-window.*.button.pressed.image.color: #b6b6b6
-window.*.button.pressed.bg.border.color: #b1a19e
+window.*.button.pressed.bg.border.color: #C2D485
 
 window.*.button.disabled.bg: parentrelative
 window.*.button.disabled.image.color: #725e51
